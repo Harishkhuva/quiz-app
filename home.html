@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <p>highscores</p>
+        <p id="score">0</p>
+        <p>timeleft</p>
+    </div>
+    <div class="start">
+        <p>discription</p>
+        <p>heading</p>
+        <button id="start" onclick="myfunction()">start the quiz</button>
+    </div>
+    <div class="qu" id="qu">
+        <p id="qu1"></p>
+        <input type="radio" id="r1" name="quiz">
+        <label id="l1"></label>
+        <input type="radio" id="r2" name="quiz">
+        <label id="l2"></label>
+        <input type="radio" id="r3" name="quiz">
+        <label id="l3"></label>
+        <input type="radio" id="r4" name="quiz">
+        <label id="l4"></label>
+        <div class="sn">
+            <button id="Submit" onclick="submit()">Submit</button>
+            <button id="Next" onclick="next()">Next</button>
+        </div>
+        <div>
+            <p id="ans"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
